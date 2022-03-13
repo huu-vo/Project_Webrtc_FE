@@ -41,7 +41,8 @@
       "executor": "@nrwl/web:dev-server",
       "options": {
         "buildTarget": "web-rtc:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/web-rtc/proxy.conf.json"
       },
       "configurations": {
         "production": {
